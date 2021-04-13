@@ -23,6 +23,7 @@ module BootstrapApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
+    config.i18n.defaults_locate = :ja
 
     # Configuration for the application, engines, and railties goes here.
     #
